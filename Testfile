@@ -1,0 +1,11 @@
+import javax.swing.*;
+
+class Hej2 {
+  public static void main (String[] args) {
+    String namn;
+    String halsning;
+    namn = JOptionPane.showInputDialog("Vad heter du?");
+    halsning = "Välkommen "+ namn;
+    JOptionPane.showMessageDialog(null, halsning);
+    }
+ }
