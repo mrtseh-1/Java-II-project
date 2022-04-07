@@ -1,5 +1,5 @@
 import java.util.stream.DoubleStream;
-
+// kalkylator
 public class Calculator {
 
     static double add(double... operands) {
